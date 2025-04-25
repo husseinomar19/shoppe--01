@@ -6,7 +6,7 @@ import { useRouter  } from "expo-router";
 export default function LoginScreen() {
    const router = useRouter();
   const handelrouter =  (router : any) =>{
-    router.push("/home");
+    router.push("/create");
   }
   return (
     <SafeAreaView className="flex-1 bg-white">
