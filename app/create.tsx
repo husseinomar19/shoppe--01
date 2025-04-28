@@ -3,7 +3,15 @@ import { View, Text, Image, TextInput, ScrollView, KeyboardAvoidingView, Platfor
 import BackgroundSvg from "../assets/svg/backsvg";
 import Button from "@/assets/components/button/button";
 import { Link } from "expo-router";
+import { useRouter } from "expo-router";
 export default function CreateAccount() {
+
+  const router = useRouter();
+
+
+  const toHome =(router : any) =>{
+      router.push("home")
+  }
   return (
     <KeyboardAvoidingView
       style={{ flex: 1 }}
@@ -38,7 +46,7 @@ export default function CreateAccount() {
           <Button
           titel="Done"
           margin="50"
-          action={() => console.log("Doen.")} />
+          action={() => toHome(router)} />
 
           <View className="flex justify-center items-center w-full">
           <Link
