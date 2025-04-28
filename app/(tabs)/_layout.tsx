@@ -2,7 +2,12 @@ import { Tabs } from "expo-router";
 import Feather from '@expo/vector-icons/Feather';
 export default function TabsLayout() {
     return (
-        <Tabs>
+        <Tabs
+        screenOptions={{
+            tabBarStyle: {
+                borderColor : "white"
+            }
+        }}>
             <Tabs.Screen name="home"
             options={{
                 tabBarShowLabel : false,
