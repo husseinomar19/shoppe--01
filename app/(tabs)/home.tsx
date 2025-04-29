@@ -12,10 +12,12 @@ import TopProducts from "@/assets/components/topproduct/topproducts"
 import NewItems from "@/assets/components/newitems/newitems";
 import FlashSale from "@/assets/components/flashsale/flashsale";
 import MostPopular from "@/assets/components/mostpopular/mostpopular";
+import JustForYou from "@/assets/components/justforyou/justforyou";
 export default function Homescreen() {
   return (
     <SafeAreaView className="flex-1 bg-white h-full w-full">
-      <ScrollView className="px-5 w-full">
+      <ScrollView
+      showsVerticalScrollIndicator={false} className="px-5 w-full">
 
         <View className="flex flex-row w-full justify-between items-center">
           <Text className="text-[28px] font-bold">Shop</Text>
@@ -63,6 +65,8 @@ export default function Homescreen() {
          <FlashSale />
 
          <MostPopular />
+         
+         <JustForYou />
 
       </ScrollView>
     </SafeAreaView>
