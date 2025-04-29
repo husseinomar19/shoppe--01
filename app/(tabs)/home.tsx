@@ -10,6 +10,8 @@ import EvilIcons from "@expo/vector-icons/EvilIcons";
 import Gategory from "@/assets/components/category/category";
 import TopProducts from "@/assets/components/topproduct/topproducts"
 import NewItems from "@/assets/components/newitems/newitems";
+import FlashSale from "@/assets/components/flashsale/flashsale";
+import MostPopular from "@/assets/components/mostpopular/mostpopular";
 export default function Homescreen() {
   return (
     <SafeAreaView className="flex-1 bg-white h-full w-full">
@@ -57,6 +59,10 @@ export default function Homescreen() {
          <TopProducts />
 
          <NewItems />
+
+         <FlashSale />
+
+         <MostPopular />
 
       </ScrollView>
     </SafeAreaView>
