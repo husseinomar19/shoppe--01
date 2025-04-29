@@ -36,9 +36,9 @@ export default function Homescreen() {
           </View>
         </View>
 
-        <View className="w-full h-[130px] bg-black mt-[25px] overflow-hidden relative rounded-[9px]">
+        <View className="w-full h-[140px] bg-black mt-[25px] overflow-hidden relative rounded-[9px]">
           <Image
-            className="w-full h-[130px] bg-cover absolute z-0"
+            className="w-full h-[140px] bg-cover absolute z-0"
             source={require("../../assets/images/gril.png")}
             alt="png"
           />
