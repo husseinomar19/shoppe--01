@@ -1,5 +1,7 @@
 import { SafeAreaView, ScrollView, Text, View ,Image ,StyleSheet} from "react-native"
 import Header from "@/assets/components/header/header"
+import WishList from "@/assets/components/wishlist/wishlist";
+import MostPopular from "@/assets/components/mostpopular/mostpopular";
 export default function MeList(){
     return(
         <>
@@ -55,6 +57,24 @@ export default function MeList(){
                          </View>
 
              </View>
+              
+
+            <View className="w-full mt-[20px] flex gap-4">
+
+                <WishList />
+                <WishList />
+                <WishList />
+                <WishList />
+                <WishList />
+                <WishList />
+
+                
+
+            </View>
+
+
+            <MostPopular />
+
 
              
              
@@ -74,4 +94,5 @@ const styles = StyleSheet.create({
       shadowRadius: 3.84,
       elevation: 5,
     },
+    
   });
