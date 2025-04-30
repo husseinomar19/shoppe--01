@@ -1,6 +1,8 @@
 import { SafeAreaView, ScrollView, Text, View, Image ,StyleSheet , TouchableOpacity} from "react-native"
 import Feather from '@expo/vector-icons/Feather';
 import Svg, { Path } from "react-native-svg"
+import MyOrder from "@/assets/components/myorder/myorder";
+import NewItems from "@/assets/components/newitems/newitems";
 export default function Account(){
     return(
         <>
@@ -49,7 +51,7 @@ export default function Account(){
                                 />
                     </Svg>
                     </View>
-                    
+
 
 
 
@@ -107,6 +109,11 @@ export default function Account(){
                 
                             </View>
                         </View>
+
+
+                        <MyOrder />
+
+                        <NewItems />
 
 
            

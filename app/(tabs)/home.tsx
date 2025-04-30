@@ -13,6 +13,7 @@ import NewItems from "@/assets/components/newitems/newitems";
 import FlashSale from "@/assets/components/flashsale/flashsale";
 import MostPopular from "@/assets/components/mostpopular/mostpopular";
 import JustForYou from "@/assets/components/justforyou/justforyou";
+
 export default function Homescreen() {
   return (
     <SafeAreaView className="flex-1 bg-white h-full w-full">
@@ -67,6 +68,8 @@ export default function Homescreen() {
          <MostPopular />
          
          <JustForYou />
+
+         
 
       </ScrollView>
     </SafeAreaView>
