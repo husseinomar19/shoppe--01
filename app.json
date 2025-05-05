@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/appicon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.husseinomar.shoppe"
     },
     "web": {
       "bundler": "metro",
